@@ -7,16 +7,68 @@ html, body {
     color: #fafafa;
   }
   
-  .content-container {
-    height: 100%;
-    margin: 0 5rem;
-    display: flex;
-    flex-direction: column;
-    widtH: 30%;
+  #gamaAcademy {
+      margin-top: 70px;
+      font-size: 15px;
+      text-align: center;
   }
-  
-  .result-container {
-    margin-top: 3rem;
-    border: 1rem solid #63dc3e;
-    width: 100%;
+
+  #calculadoraChurrasco {
+      font-size: 50px;
+      text-align: center;
+      margin-bottom: 100px;
+  }
+
+  #bebidas {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      align-
+  }
+
+  #comidas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+
+  #botaoCalcular {
+      display: block;
+      background-color: #63dc3e;
+      border-radius: 2px;
+      font-weight: 800;
+      font-size: 25px;
+      margin: auto;
+      color: #731ab7;
+      border: #731ab7;
+      width: 180px;
+      height: 70px;
+      margin-top: 10px;
+  }
+
+  .block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+ .acompanhamento {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+  }
+
+  input[type='text'] {
+      background: #731ab7;
+      border: 4px solid white;
+      height: 80px;
+      width: 180px;
+      color: white;
+      text-align: center;
+      font-weight: 800;
+      font-size: 20px;
+      margin: 0;
+  }
+
+  #containerComidas {
+      margin-bottom: 50px;
   }
