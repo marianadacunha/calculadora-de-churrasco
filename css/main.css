@@ -7,80 +7,97 @@ html, body {
     padding: 0;
     background-color: #731ab7;
     color: #fafafa;
-  }
-  
-  #gamaAcademy {
-      margin-top: 70px;
-      font-size: 15px;
-      text-align: center;
-  }
+}
 
-  #calculadoraChurrasco {
-      font-size: 50px;
-      text-align: center;
-      margin-bottom: 100px;
-      font-family: 'Lobster', cursive;
-  }
+#gamaAcademy {
+    margin-top: 70px;
+    font-size: 15px;
+    text-align: center;
+}
 
-  #bebidas {
-      font-size: 30px;
-      font-family: 'Lobster', cursive;
-  }
+#calculadoraChurrasco {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Lobster', cursive;
+}
 
-  #comidas {
+#bebidas {
     font-size: 30px;
     font-family: 'Lobster', cursive;
-  }
+}
 
-  #botaoCalcular {
-      display: block;
-      background-color: #63dc3e;
-      border-radius: 2px;
-      font-weight: 800;
-      font-size: 25px;
-      margin: auto;
-      color: #731ab7;
-      border: #731ab7;
-      width: 180px;
-      height: 70px;
-      margin-top: 10px;
-  }
+#comidas {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
 
-  .block {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+#botaoCalcular {
+    display: block;
+    background-color: #63dc3e;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 25px;
+    margin: auto;
+    color: #731ab7;
+    border: #731ab7;
+    width: 180px;
+    height: 70px;
+    margin-top: 10px;
+}
 
- .acompanhamento {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-  }
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-  input[type='text'] {
-      background: #731ab7;
-      border: 4px solid white;
-      height: 80px;
-      width: 180px;
-      color: white;
-      text-align: center;
-      font-weight: 800;
-      font-size: 20px;
-      margin: 0;
-  }
+.acompanhamento {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 
-  #containerComidas {
-      margin-bottom: 50px;
-  }
+input[type='text'] {
+    background: #731ab7;
+    border: 4px solid white;
+    height: 80px;
+    width: 180px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+}
 
-  #totalComidasBebidas {
-      background-color: rgb(250,250,250, 0.5);
-      border-radius: 5px;
-      padding:20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      font-size: 20px;
-      font-weight: 500;
-  }
+#containerComidas {
+    margin-bottom: 50px;
+}
+
+#totalComidasBebidas {
+    background-color: rgb(250, 250, 250, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 760px) {
+    .col-md-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #comidas, #bebidas {
+        margin-bottom: 30px;
+    }
+
+    #totalComidasBebidas {
+        max-width: 85vw;
+    }
+}
