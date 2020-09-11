@@ -93,6 +93,10 @@ input[type='text'] {
         flex-direction: column;
     }
 
+    .acompanhamento {
+        flex-direction: row;
+    }
+
     #comidas, #bebidas {
         margin-bottom: 30px;
     }
