@@ -8,4 +8,4 @@ This page was build using HTML, CSS, Bootstrap and JavaScript.
 
 You can see the live site clicking <a href="https://marianadacunha.github.io/calculadora-de-churrasco/">here</a>.</br>
 
-![Screenshot](https://i.ibb.co/wSpGbwJ/image.png)
+![Screenshot](https://github.com/marianadacunha/calculadora-de-churrasco/blob/master/docs/screenshot.png?raw=true)
